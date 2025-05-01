@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "summer_drop_leads_patch",
+  "version": "${version}",
+  "name": "Summer Drop Leads Patch",
+  "description": "Patches MC-296767 and MC-272566, allowing you to safely ride leashed entities.",
+  "authors": [
+    "ImplicitSaber"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/summer_drop_leads_patch/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.implicitsaber.mod.summer_drop_leads_patch.SummerDropLeadsPatch"
+    ]
+  },
+  "mixins": [
+    "summer_drop_leads_patch.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "1.21.6-alpha.25.18.a"
+  }
+}
