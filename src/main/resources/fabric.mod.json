@@ -21,6 +21,6 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "minecraft": "1.21.6-alpha.25.18.a"
+    "minecraft": "1.21.6-alpha.25.19.a"
   }
 }
